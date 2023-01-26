@@ -1,9 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 .main{
-    width:1000px;
+    width:100%;
 
     
     
@@ -12,7 +13,7 @@
     
     height: 20px;
     background-color: rgb(192, 190, 190);
-    padding-left: 10pc;
+    padding-left: 10px;
     padding-top: 5px;
     margin-left: 20px;
     margin-right: 20px;
@@ -36,7 +37,7 @@
 
 }
 .top2 img{
-    height: 4pc;
+    height: 4px;
     padding-left: 40px;
 
 }
@@ -89,8 +90,8 @@
 }
 .bigpicture img{
     height: 500px;
-    width: 69pc;
-    padding-left: 70px;
+    width: 100%;
+    
    
 }
 .box{
@@ -158,6 +159,7 @@
     text-align: center;
     padding-top: 17px;
     margin-left: 10px;
+    
     
 }
 .h1{
@@ -249,7 +251,7 @@
     margin-left: 15px;
     margin-bottom: 5px;
     height: 40px;
-    width: 275px;
+    width: 100;
     border-radius: 5px;
     background-color: chartreuse;
     border-color: chartreuse ;
@@ -327,12 +329,14 @@
 
 .bigbang{
     height: 550px;
+    width: 100%;
     margin-left: 30px;
     background-color: rgb(243, 236, 236);
     display: flex;
     justify-content: space-evenly;
     padding-top: 40px;
     margin-bottom: 10px;
+
 
 }
 .image img{
